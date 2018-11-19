@@ -42,7 +42,7 @@
     "koa-cors": "0.0.16",
     "koa-error": "^2.1.0",
     "koa-favicon": "^1.2.1",
-    "koa-jwt-mongo": "^1.2.0",
+    "koa-jwt-mongo": "^2.1.1",
     "koa-router": "^5.4.0",
     "koa-static-cache": "4.1.1",
     "koa-validate": "^1.0.7",
