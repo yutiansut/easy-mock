@@ -55,7 +55,7 @@
     "path-to-regexp": "^1.7.0",
     "react-cookie": "^1.0.4",
     "restc": "^0.2.1",
-    "swagger-tools": "^0.10.1",
+    "swagger-tools": "^0.10.2",
     "v-click-outside": "^0.0.8",
     "vm2": "^3.4.6",
     "vue": "^2.4.2",
