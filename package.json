@@ -13,7 +13,9 @@
     "build": "cross-env NODE_ENV=production npm run build:dev",
     "build:dev": "rimraf dist && npm run build:client && npm run build:server",
     "build:client": "webpack --config build/webpack.client.config.js --progress --hide-modules",
-    "build:server": "webpack --config build/webpack.server.config.js --progress --hide-modules"
+    "build:server": "webpack --config build/webpack.server.config.js --progress --hide-modules",
+    "snyk-protect": "snyk protect",
+    "prepare": "yarn run snyk-protect"
   },
   "author": "Chuangker",
   "license": "MIT",
@@ -64,7 +66,8 @@
     "vue-server-renderer": "^2.4.2",
     "vue-shortkey": "^2.2.1",
     "vuex": "^2.3.1",
-    "vuex-router-sync": "^4.2.0"
+    "vuex-router-sync": "^4.2.0",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "babel-core": "^6.25.0",
@@ -120,5 +123,6 @@
     "webpack-hot-middleware": "^2.18.2",
     "webpack-merge": "^4.1.0",
     "webpack-node-externals": "^1.6.0"
-  }
+  },
+  "snyk": true
 }
