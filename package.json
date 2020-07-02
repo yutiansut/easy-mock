@@ -24,7 +24,7 @@
   "dependencies": {
     "@tweenjs/tween.js": "^17.1.0",
     "axios": "^0.15.3",
-    "bcrypt": "^0.8.7",
+    "bcrypt": "^5.0.0",
     "brace": "^0.10.0",
     "bunyan": "^1.8.5",
     "clipboard": "^1.7.1",
